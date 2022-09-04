@@ -1,0 +1,23 @@
+{
+  "gamePortalApp": {
+    "gamePoints": {
+      "home": {
+        "title": "Game Points",
+        "createLabel": "Create a new Game Points",
+        "createOrEditLabel": "Create or edit a Game Points",
+        "notFound": "No Game Points found"
+      },
+      "created": "A new Game Points is created with identifier {{ param }}",
+      "updated": "A Game Points is updated with identifier {{ param }}",
+      "deleted": "A Game Points is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Points {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Points"
+      },
+      "pid": "Pid",
+      "totalPoints": "Total Points"
+    }
+  }
+}

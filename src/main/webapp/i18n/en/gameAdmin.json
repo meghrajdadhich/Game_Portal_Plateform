@@ -1,0 +1,22 @@
+{
+  "gamePortalApp": {
+    "gameAdmin": {
+      "home": {
+        "title": "Game Admins",
+        "createLabel": "Create a new Game Admin",
+        "createOrEditLabel": "Create or edit a Game Admin",
+        "notFound": "No Game Admins found"
+      },
+      "created": "A new Game Admin is created with identifier {{ param }}",
+      "updated": "A Game Admin is updated with identifier {{ param }}",
+      "deleted": "A Game Admin is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Admin {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Admin"
+      },
+      "name": "Name"
+    }
+  }
+}

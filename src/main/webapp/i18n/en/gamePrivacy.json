@@ -1,0 +1,23 @@
+{
+  "gamePortalApp": {
+    "gamePrivacy": {
+      "home": {
+        "title": "Game Privacies",
+        "createLabel": "Create a new Game Privacy",
+        "createOrEditLabel": "Create or edit a Game Privacy",
+        "notFound": "No Game Privacies found"
+      },
+      "created": "A new Game Privacy is created with identifier {{ param }}",
+      "updated": "A Game Privacy is updated with identifier {{ param }}",
+      "deleted": "A Game Privacy is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Privacy {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Privacy"
+      },
+      "agreementDetails": "Agreement Details",
+      "personalinfo": "Personalinfo"
+    }
+  }
+}

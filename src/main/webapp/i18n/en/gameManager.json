@@ -1,0 +1,24 @@
+{
+  "gamePortalApp": {
+    "gameManager": {
+      "home": {
+        "title": "Game Managers",
+        "createLabel": "Create a new Game Manager",
+        "createOrEditLabel": "Create or edit a Game Manager",
+        "notFound": "No Game Managers found"
+      },
+      "created": "A new Game Manager is created with identifier {{ param }}",
+      "updated": "A Game Manager is updated with identifier {{ param }}",
+      "deleted": "A Game Manager is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Manager {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Manager"
+      },
+      "name": "Name",
+      "address": "Address",
+      "contactNumber": "Contact Number"
+    }
+  }
+}

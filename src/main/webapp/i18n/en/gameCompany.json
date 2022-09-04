@@ -1,0 +1,23 @@
+{
+  "gamePortalApp": {
+    "gameCompany": {
+      "home": {
+        "title": "Game Companies",
+        "createLabel": "Create a new Game Company",
+        "createOrEditLabel": "Create or edit a Game Company",
+        "notFound": "No Game Companies found"
+      },
+      "created": "A new Game Company is created with identifier {{ param }}",
+      "updated": "A Game Company is updated with identifier {{ param }}",
+      "deleted": "A Game Company is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Company {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Company"
+      },
+      "name": "Name",
+      "address": "Address"
+    }
+  }
+}

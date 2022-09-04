@@ -1,0 +1,25 @@
+{
+  "name": "GamePoints",
+  "fields": [
+    {
+      "fieldName": "pid",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "totalPoints",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307115003",
+  "entityTableName": "game_points",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

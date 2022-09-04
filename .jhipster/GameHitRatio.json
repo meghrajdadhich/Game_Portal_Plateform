@@ -1,0 +1,25 @@
+{
+  "name": "GameHitRatio",
+  "fields": [
+    {
+      "fieldName": "numberOfhits",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307115103",
+  "entityTableName": "game_hit_ratio",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,26 @@
+{
+  "gamePortalApp": {
+    "gameSupport": {
+      "home": {
+        "title": "Game Supports",
+        "createLabel": "Create a new Game Support",
+        "createOrEditLabel": "Create or edit a Game Support",
+        "notFound": "No Game Supports found"
+      },
+      "created": "A new Game Support is created with identifier {{ param }}",
+      "updated": "A Game Support is updated with identifier {{ param }}",
+      "deleted": "A Game Support is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Support {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Support"
+      },
+      "gameQuestions": "Game Questions",
+      "accQuestions": "Acc Questions",
+      "tecnicalQuestions": "Tecnical Questions",
+      "financialQuestions": "Financial Questions",
+      "rulesQuestions": "Rules Questions"
+    }
+  }
+}

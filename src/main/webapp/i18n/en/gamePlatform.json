@@ -1,0 +1,22 @@
+{
+  "gamePortalApp": {
+    "gamePlatform": {
+      "home": {
+        "title": "Game Platforms",
+        "createLabel": "Create a new Game Platform",
+        "createOrEditLabel": "Create or edit a Game Platform",
+        "notFound": "No Game Platforms found"
+      },
+      "created": "A new Game Platform is created with identifier {{ param }}",
+      "updated": "A Game Platform is updated with identifier {{ param }}",
+      "deleted": "A Game Platform is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Platform {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Platform"
+      },
+      "name": "Name"
+    }
+  }
+}

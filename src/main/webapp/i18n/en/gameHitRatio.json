@@ -1,0 +1,23 @@
+{
+  "gamePortalApp": {
+    "gameHitRatio": {
+      "home": {
+        "title": "Game Hit Ratios",
+        "createLabel": "Create a new Game Hit Ratio",
+        "createOrEditLabel": "Create or edit a Game Hit Ratio",
+        "notFound": "No Game Hit Ratios found"
+      },
+      "created": "A new Game Hit Ratio is created with identifier {{ param }}",
+      "updated": "A Game Hit Ratio is updated with identifier {{ param }}",
+      "deleted": "A Game Hit Ratio is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Hit Ratio {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Hit Ratio"
+      },
+      "numberOfhits": "Number Ofhits",
+      "score": "Score"
+    }
+  }
+}

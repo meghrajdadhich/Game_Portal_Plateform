@@ -1,0 +1,37 @@
+{
+  "name": "MembershipHistory",
+  "fields": [
+    {
+      "fieldName": "memberId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "paymentId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "paymentDate",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "expereDate",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "memberStatus",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307114303",
+  "entityTableName": "membership_history",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

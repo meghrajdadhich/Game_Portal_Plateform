@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.iord.service.gameportal",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "monolith",
+    "baseName": "GamePortal",
+    "packageName": "com.iord.service.gameportal",
+    "packageFolder": "com/iord/service/gameportal",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjM2MzRiZjE5NGQyNjI0NmE1NDk4ZjFkYzZlYjYwZjAzNjdiMDJlY2EwYTY2OWQ4NmJkYjNlM2Y3Y2E1NzFhMjJkNDU1NjFlMjEzZmE2ZjFkYWQ4NTRlMWQzZWRiN2YxYWQ2ZmU4YTE3ZTA3MzhjOTFiZWIzODg3OGU5M2RiZGE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1615116801525,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": []
+  }
+}

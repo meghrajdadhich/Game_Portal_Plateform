@@ -1,0 +1,24 @@
+{
+  "gamePortalApp": {
+    "gameRules": {
+      "home": {
+        "title": "Game Rules",
+        "createLabel": "Create a new Game Rules",
+        "createOrEditLabel": "Create or edit a Game Rules",
+        "notFound": "No Game Rules found"
+      },
+      "created": "A new Game Rules is created with identifier {{ param }}",
+      "updated": "A Game Rules is updated with identifier {{ param }}",
+      "deleted": "A Game Rules is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Game Rules {{ id }}?"
+      },
+      "detail": {
+        "title": "Game Rules"
+      },
+      "ruleName": "Rule Name",
+      "description": "Description",
+      "defaultValue": "Default Value"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "GameSupport",
+  "fields": [
+    {
+      "fieldName": "gameQuestions",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "accQuestions",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tecnicalQuestions",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "financialQuestions",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rulesQuestions",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307114503",
+  "entityTableName": "game_support",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

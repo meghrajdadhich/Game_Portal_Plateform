@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql, mariadb"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
+    <property name="clobType" value="clob" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="mysql, oracle, mssql, mariadb, postgresql"/>
+    <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114003_added_entity_GameAdmin.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114103_added_entity_GameManager.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114203_added_entity_Membership.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114303_added_entity_MembershipHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114403_added_entity_GameRules.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114503_added_entity_GameSupport.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114603_added_entity_Games.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114703_added_entity_GamePlan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114803_added_entity_GameCompany.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307114903_added_entity_GamePlatform.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115003_added_entity_GamePoints.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115103_added_entity_GameHitRatio.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115203_added_entity_GameRating.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115303_added_entity_GameTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115403_added_entity_GamePrivacy.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115503_added_entity_Comments.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210307115603_added_entity_GameBlog.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

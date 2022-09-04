@@ -1,0 +1,95 @@
+
+
+entity GameAdmin{
+	id Long,
+        name String
+}
+entity GameManager{
+	id Long,
+	name String,
+	address String,
+    	contactNumber Long
+}
+entity Membership{
+	memberid Long,
+    	name String
+	gameTitle String,
+}
+entity MembershipHistory{
+	memberId Long,
+        paymentId Long,
+    	paymentDate Long,
+   	expereDate Long,
+    	memberStatus String
+
+}
+entity GameRules{
+	ruleName String,
+	description String,
+    	defaultValue String 
+}
+entity GameSupport{
+	gameQuestions String,
+	accQuestions String,
+    	gameQuestions String,
+    	tecnicalQuestions String,
+    	financialQuestions String,
+	rulesQuestions String,   
+}
+entity Games{
+	gameId Long,
+	name String
+
+}
+entity GamePlan{
+	planName String
+
+}
+entity GameCompany{
+	name String,
+        address String
+}
+entity GamePlatform{
+	name String
+}
+entity GamePoints{
+	pid Long,
+        totalPoints Long
+
+}
+
+entity GameHitRatio{
+	numberOfhits Long,
+        score Long
+
+}
+entity GameRating{
+	gameid Long,
+        rating Long,
+        timestamp Long
+
+}
+entity GameTransaction{
+	transactionId Long,
+        userId Long,
+    transactionTimeStamp Long,
+
+}
+entity GamePrivacy{
+	agreementDetails String,
+    personalinfo String
+}
+entity Comments{
+	gamename String,
+    comment String
+
+}
+entity GameBlog{
+	title String,
+	category String,
+    description String
+    
+ }
+
+paginate all with pagination
+service all with serviceImpl 

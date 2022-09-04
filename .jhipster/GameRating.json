@@ -1,0 +1,29 @@
+{
+  "name": "GameRating",
+  "fields": [
+    {
+      "fieldName": "gameid",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "rating",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "timestamp",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307115203",
+  "entityTableName": "game_rating",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

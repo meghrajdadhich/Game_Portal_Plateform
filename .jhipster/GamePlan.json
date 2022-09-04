@@ -1,0 +1,21 @@
+{
+  "name": "GamePlan",
+  "fields": [
+    {
+      "fieldName": "planName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307114703",
+  "entityTableName": "game_plan",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

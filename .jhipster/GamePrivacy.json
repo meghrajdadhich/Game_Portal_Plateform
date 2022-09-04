@@ -1,0 +1,25 @@
+{
+  "name": "GamePrivacy",
+  "fields": [
+    {
+      "fieldName": "agreementDetails",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "personalinfo",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210307115403",
+  "entityTableName": "game_privacy",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
